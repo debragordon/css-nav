@@ -1,0 +1,68 @@
+body {
+  background: lightgreen;
+}
+
+.top-nav {
+  background: black;
+  color: white;
+  height: 50px;
+}
+
+.top-nav li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-image {
+  border-radius: 200px;
+  width: 100%;
+  align: center;
+ }
+
+.sub-images {
+  border-radius: 100%;
+}
+
+.section-2 {
+  padding: 20px;
+  margin: 30px;
+}
+
+footer {
+  background: black;
+  color: white;
+  height: 20px;
+  width: 100%;
+  float: center;
+}
+
+footer h6 {
+  text-align: center;
+  padding-top: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #0b591c;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
