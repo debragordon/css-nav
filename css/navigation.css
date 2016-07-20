@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+}
+
 body {
   background: lightgreen;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 .top-nav {
@@ -11,7 +16,7 @@ body {
 .top-nav li {
   list-style: none;
   padding: 10px;
-  margin: 10px;
+  margin: 0 auto;
   display: inline-block;
 }
 
@@ -52,17 +57,27 @@ a {
 }
 
 a:link {
-    color: #000;
+  color: #ddd;
 }
 
 a:visited {
-    color: #0b591c;
+  color: #0b591c;
 }
 
 a:hover {
-    color: #FF00FF;
+  color: #ffd028;
+}
+
+li.background:hover {
+  background: tomato;
 }
 
 a:active {
-    color: #0000FF;
+  color: #0000FF;
+}
+
+a.grow:focus {
+  margin-left: 5px;
+  margin-right: 5px;
+
 }
